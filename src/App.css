@@ -1,33 +1,42 @@
-.App {
+body{
+  margin:0%;
+  padding: 0%;
+}
+a{
+  color:white;
+  font-size:160%;
+  font-family: 'Inconsolata', monospace;
+ margin-right:100px;
+ margin-left: 150px;
+}
+#root{
+background:url("https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1693&q=80");
+background-repeat: no-repeat;
+background-size:cover;
+height: 600px;
+width: 100%;
+font-family: 'Inconsolata', monospace;
+margin-top: 3%;
+}
+
+.overlay{
+  background:rgba(27, 18, 18, 0.616);
+  width: 100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index:1;
+  position:absolute;
+
+}
+.hola{
+  position: absolute;
+  z-index: 2;
+  color:white;
+  top:40%;
+  left:20%;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size:50px;
+  letter-spacing: 9px;
+  font-family: 'Cinzel', serif;
 }
