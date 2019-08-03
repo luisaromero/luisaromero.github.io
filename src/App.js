@@ -1,7 +1,6 @@
 import React from 'react';
-import './App.css';
-import Footer from './footer';
-import Cards from './cards';
+import '././App.css';
+import Footer from '././footer';
 
 
 class App extends React.Component{
@@ -14,7 +13,7 @@ class App extends React.Component{
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <a className="nav-link" href="">About <span class="sr-only"></span></a>
+        <a className="nav-link" href="">About <span className="sr-only"></span></a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="">Portafolio</a>
@@ -35,7 +34,7 @@ class App extends React.Component{
     {/* <Cards/> */}
     <div className=" text-center">
       <p> About</p>
-      Text about me ... In progress... 
+      <p>Text about me ... In progress... </p>
     </div>
     <div className=" text-center">
       <p> Projects</p>
