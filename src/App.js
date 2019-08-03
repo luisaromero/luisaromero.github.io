@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import Footer from './footer';
+import Cards from './cards';
 
 
 class App extends React.Component{
   render(){
       return(
+        <React.Fragment>
           <div className="container">
     <div className="App">
       <nav className="navbar navbar-expand-lg">
@@ -28,8 +31,22 @@ class App extends React.Component{
     <h1>Front-end Developer</h1>
     </div>
     <div className="overlay"></div>
-
     </div>
+    {/* <Cards/> */}
+    <div className=" text-center">
+      <p> About</p>
+      Text about me ... In progress... 
+    </div>
+    <div className=" text-center">
+      <p> Projects</p>
+      Projects ... In progress... 
+    </div>
+    <div className=" text-center">
+      <p> Contact</p>
+      Contact me ... In progress... 
+    </div>
+    <Footer/>
+    </React.Fragment>
   )}
 }
 

@@ -1,4 +1,4 @@
-body{
+#root{
   margin:0%;
   padding: 0%;
 }
@@ -16,7 +16,8 @@ background-size:cover;
 height: 600px;
 width: 100%;
 font-family: 'Inconsolata', monospace;
-margin-top: 3%;
+background-color: black;
+background-position: cover;
 }
 
 .overlay{
@@ -26,7 +27,7 @@ margin-top: 3%;
   top:0;
   left:0;
   z-index:1;
-  position:absolute;
+  height: 600px;
 
 }
 .hola{
@@ -38,5 +39,10 @@ margin-top: 3%;
   text-align: center;
   font-size:50px;
   letter-spacing: 9px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Overpass Mono', monospace;
+}
+.text-center{
+ font-size:26px;
+ margin-top:50px;
+ margin-bottom:100px;
 }
