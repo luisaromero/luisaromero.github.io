@@ -1,6 +1,7 @@
 import React from 'react';
 import '././App.css';
 import Footer from '././footer';
+import Cards from '././cards';
 
 
 class App extends React.Component{
@@ -13,10 +14,13 @@ class App extends React.Component{
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <a className="nav-link" href="">About <span className="sr-only"></span></a>
+        <a className="nav-link" href="">About me <span className="sr-only"></span></a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="">Portafolio</a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="">Skills</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="">Contact</a>
@@ -31,8 +35,8 @@ class App extends React.Component{
     </div>
     <div className="overlay"></div>
     </div>
-    {/* <Cards/> */}
     <div className=" text-center">
+    <Cards/>
       <p> About</p>
       <p>Text about me ... In progress... </p>
     </div>
@@ -41,10 +45,15 @@ class App extends React.Component{
       Projects ... In progress... 
     </div>
     <div className=" text-center">
+      <p> Skills</p>
+      <p>Skills ... In progress... </p>
+    </div>
+    <div className=" text-center">
       <p> Contact</p>
       Contact me ... In progress... 
     </div>
-    <Footer/>
+    
+    <Footer/>   
     </React.Fragment>
   )}
 }

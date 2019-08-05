@@ -6,11 +6,10 @@ a{
   color:white;
   font-size:160%;
   font-family: 'Inconsolata', monospace;
- margin-right:100px;
- margin-left: 150px;
+ margin-left: 30px;
 }
 #root{
-background:url("https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1693&q=80");
+background:url("https://www.privateforexcoaching.com/wp-content/uploads/contact-me-01.jpg");
 background-repeat: no-repeat;
 background-size:cover;
 height: 600px;
@@ -29,7 +28,7 @@ background-position: cover;
   z-index:1;
   height: 600px;
 
-}
+ }
 .hola{
   position: absolute;
   z-index: 2;
