@@ -14,16 +14,16 @@ class App extends React.Component{
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <a className="nav-link" href="">About me <span className="sr-only"></span></a>
+        <a className="nav-link" href="#about-me">About me</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="">Portafolio</a>
+        <a className="nav-link" href="#projects">Portfolio</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="">Skills</a>
+        <a className="nav-link" href="#skills">Skills</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="">Contact</a>
+        <a className="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
   </div>
@@ -38,19 +38,19 @@ class App extends React.Component{
     <div className=" text-center">
     <Cards/>
       <p> About</p>
-      <p>Text about me ... In progress... </p>
+      <a name="about-me">Text about me ... In progress... </a>
     </div>
     <div className=" text-center">
-      <p> Projects</p>
-      Projects ... In progress... 
+      <a name="#projects"> Projects</a>
+     <p> Projects ... In progress... </p>
     </div>
     <div className=" text-center">
-      <p> Skills</p>
+      <a name="skills"> Skills</a>
       <p>Skills ... In progress... </p>
     </div>
     <div className=" text-center">
-      <p> Contact</p>
-      Contact me ... In progress... 
+      <a name="contact"> Contact</a>
+      <p>Contact me ... In progress... </p>
     </div>
     
     <Footer/>   
