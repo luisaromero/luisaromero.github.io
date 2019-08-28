@@ -2,10 +2,10 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://luisaromero.github.io/portafolio",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
-    "homepage": "https://luisaromero.github.io/portafolio",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -31,11 +31,17 @@
       "last 1 safari version"
     ]
   },
-    "rules": {
-      "jsx-a11y/anchor-is-valid": [ "error", {
-        "components": [ "Link" ],
-        "specialLink": [ "to" ]
-      }]
-    }
+  "rules": {
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": [
+          "Link"
+        ],
+        "specialLink": [
+          "to"
+        ]
+      }
+    ]
   }
-
+}
