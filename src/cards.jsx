@@ -6,22 +6,53 @@ class Cards extends Component{
     render(){
         return(
 <React.Fragment> 
- <div className="container"> 
- <div className="row">
-  <div className="col-12 col-md-3 img-news">
-      <img className="img-fluid" src="https://cdn.about.me/s3/h/z/social.c1bd328b.png" alt="proyecto"/>
-  </div>
-  <div className="col-12 col-md-3 img-news">
-      <img className="img-fluid" src="https://1kabswnt2ua3ivl0cuqv2f17-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/Skills.jpg" alt=""/>
 
-  </div>
+   <div className="title text-center">
+       <h1 className=""> Projects</h1>
+   </div>
+{/* <div className="container row mt:100px"> */}
+    <div className="card middle"> 
+    <div className="front">
+        <img className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBQW5SR8-wpslLy-RHHeNNgfjT6_SsWXzCpuiI9KNJePu9CWAC" alt="j"></img>
+    </div>
+    <div className="back">
+        <div className="back-content middle">
+            <p>hola </p>
+            <div className="sm"><a href="h"> </a></div>
+        </div>
+    </div>
+    </div>
+    <div className="card middle"> 
+    <div className="front">
+        <img className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBQW5SR8-wpslLy-RHHeNNgfjT6_SsWXzCpuiI9KNJePu9CWAC" alt="j"></img>
+    </div>
+    <div className="back">
+        <div className="back-content middle">
+            <p>hola </p>
+            <div className="sm"><a href="h"> </a></div>
+        </div>
+    </div>
+    </div>
+    <div className="card middle"> 
+    <div className="front">
+        <img className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBQW5SR8-wpslLy-RHHeNNgfjT6_SsWXzCpuiI9KNJePu9CWAC" alt="j"></img>
+    </div>
+    <div className="back">
+        <div className="back-content middle">
+            <p>hola </p>
+            <div className="sm"><a href="h"> </a></div>
+        </div>
+    </div>
+    </div>
+    {/* </div> */}
+    
+
+    
+{/*   
   <div className="col-12 col-md-3 img-news">
       <img className="img-fluid" src="https://www.modularprojects.es/wp-content/uploads/2019/07/logo_modular_projects.jpg" alt=""/>
-  </div>
-  </div>                       
-  </div>
-
-
+  </div> */}
+  
 </React.Fragment>
 )
 } 

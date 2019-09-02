@@ -2,6 +2,8 @@ import React from 'react';
 import '././App.css';
 import Footer from '././footer';
 import Cards from '././cards';
+import Slider from '././Slider';
+import Contact from '././contact';
 
 
 class App extends React.Component{
@@ -29,31 +31,18 @@ class App extends React.Component{
   </div>
 </nav>
     </div>
-    <div className="hola">
+    <div className="hola text-center">
     <p>Luisa Romero</p>
+    
     <h1>Front-end Developer</h1>
     </div>
     <div className="overlay"></div>
-    </div>
-    <div className=" text-center">
-    <Cards/>
-      <p> About</p>
-      <a name="about-me">Text about me ... In progress... </a>
-    </div>
-    <div className=" text-center">
-      <a name="#projects"> Projects</a>
-     <p> Projects ... In progress... </p>
-    </div>
-    <div className=" text-center">
-      <a name="skills"> Skills</a>
-      <p>Skills ... In progress... </p>
-    </div>
-    <div className=" text-center">
-      <a name="contact"> Contact</a>
-      <p>Contact me ... In progress... </p>
-    </div>
+    </div>  
+    <div id="about-me"><Slider/></div>
     
-    <Footer/>   
+    <div id="projects "></div><Cards/>
+    <Contact/>
+   <Footer/>   
     </React.Fragment>
   )}
 }
