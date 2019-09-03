@@ -6,8 +6,9 @@ class Contact extends Component{
     render(){
         return(
 <React.Fragment> 
-    <div className="contact">
-        <div className="title">
+    <div className="contact offset-3">
+        <div className="title offset-2">
+            <p>_______________</p>
             <h1>Contact</h1>
         </div>
         <img src="https://www.freeiconspng.com/uploads/github-logo-icon-30.png"></img>

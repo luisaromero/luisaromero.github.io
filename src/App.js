@@ -32,9 +32,10 @@ class App extends React.Component{
 </nav>
     </div>
     <div className="hola text-center">
-    <p>Luisa Romero</p>
+      <p id="pp">___</p>
+    <h1>Luisa Romero</h1>
     
-    <h1>Front-end Developer</h1>
+    <h2>Front-end Developer</h2>
     </div>
     <div className="overlay"></div>
     </div>  
@@ -42,7 +43,7 @@ class App extends React.Component{
     
     <div id="projects "></div><Cards/>
     <Contact/>
-   <Footer/>   
+   {/* <Footer/>    */}
     </React.Fragment>
   )}
 }

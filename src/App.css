@@ -1,3 +1,6 @@
+*{
+
+}
 #root{
   margin:0%;
   padding: 0%;
@@ -5,7 +8,7 @@
 a.nav-link{
   color:white;
   font-size:160%;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'lato', sans-serif;
  margin-left: 30px;
  text-decoration: none;
  background-color:  transparent;
@@ -16,7 +19,7 @@ background-repeat: no-repeat;
 background-size:cover;
 height: 600px;
 width: 100%;
-font-family: 'Inconsolata', monospace;
+font-family: 'lato', sans-serif;
 background-color: black;
 background-position: cover;
 }
@@ -35,10 +38,21 @@ background-position: cover;
   position: absolute;
   z-index: 2;
   color:white;
-  top:40%;
+  top:30%;
   left:20%;
   text-align: center;
-  font-size:50px;
+  font-size:120px;
   letter-spacing: 9px;
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'lato', sans-serif;
+  font-size: 7em;
+  letter-spacing: 7px;
+  line-height: 0.95em;
+  font-weight: 100;
+  color: white;
+  text-align: left;
+  text-shadow: 1px 1px black;
+  padding-top: 10px;
+}
+#pp{
+  letter-spacing: 0;
 }

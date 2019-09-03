@@ -1,4 +1,14 @@
 .carousel{
-    width:40%;
-    height:80%;
+    width:850px;
+    height:300px;
+}
+.carousel li{
+    background-color: black;
+    width: 50px;
+    height:5px;
+   
+}
+.carousel-item p{
+    font-size: 25px;
+    line-height: 27px;
 }
