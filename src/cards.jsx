@@ -9,39 +9,39 @@ class Cards extends Component{
 
    <div className="title text-center">
    <p>_______________</p>
-       <h1 className=""> Projects</h1>
+       <h1 className=""> Proyectos</h1>
    </div>
 {/* <div className="container row mt:100px"> */}
     <div className="card middle"> 
     <div className="front">
-        <img className="img-fluid" src="https://github.com/luisaromero/SCL009-Burger-Queen/blob/master/src/img/menu.png?raw=true" alt="j"></img>
+        <img className="img-fluid" src="http://img.fenixzone.net/i/bCpgkGu.png" alt="j"></img>
     </div>
     <div className="back">
         <div className="back-content middle">
-            <p>hola </p>
-            <div className="sm"><a href="h"> </a></div>
+           
+            <div className="sm"><button>>Ver demo</button></div>
         </div>
     </div>
     </div>
     <div className="card middle"> 
     <div className="front">
-        <img className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBQW5SR8-wpslLy-RHHeNNgfjT6_SsWXzCpuiI9KNJePu9CWAC" alt="j"></img>
+        <img className="img-fluid" src="http://img.fenixzone.net/i/6dngBRA.png" alt="j"></img>
     </div>
     <div className="back">
         <div className="back-content middle">
-            <p>hola </p>
-            <div className="sm"><a href="h"> </a></div>
+           
+            <div className="sm"><button href="">>Ver demo</button></div>
         </div>
     </div>
     </div>
     <div className="card middle"> 
     <div className="front">
-        <img className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBQW5SR8-wpslLy-RHHeNNgfjT6_SsWXzCpuiI9KNJePu9CWAC" alt="j"></img>
+        <img className="img-fluid" src="http://img.fenixzone.net/i/mFaIzBk.png" alt="j"></img>
     </div>
     <div className="back">
         <div className="back-content middle">
-            <p>hola </p>
-            <div className="sm"><a href="h"> </a></div>
+            
+            <div className="sm"><button>>Ver demo</button></div>
         </div>
     </div>
     </div>

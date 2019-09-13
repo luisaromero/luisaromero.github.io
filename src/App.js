@@ -33,7 +33,19 @@ class App extends React.Component{
     </div>
     <div className="hola text-center">
       <p id="pp">___</p>
-    <h1>Luisa Romero</h1>
+    <h1>
+      <span>L</span>
+      <span>u</span>
+      <span>i</span>
+      <span>s</span>
+      <span>a</span>
+      <span>R</span>
+      <span>o</span>
+      <span>m</span>
+      <span>e</span>
+      <span>r</span>
+      <span>o</span>
+    </h1>
     
     <h2>Front-end Developer</h2>
     </div>

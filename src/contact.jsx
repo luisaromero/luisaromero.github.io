@@ -9,7 +9,7 @@ class Contact extends Component{
     <div className="contact offset-3">
         <div className="title offset-2">
             <p>_______________</p>
-            <h1>Contact</h1>
+            <h1>Contacto</h1>
         </div>
         <img src="https://www.freeiconspng.com/uploads/github-logo-icon-30.png"></img>
         <img src="http://www.pngall.com/wp-content/uploads/2016/07/Linkedin-Free-Download-PNG.png"></img>
