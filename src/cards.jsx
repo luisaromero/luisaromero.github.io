@@ -19,9 +19,10 @@ class Cards extends Component{
     <div className="back">
         <div className="back-content middle">
            
-            <div className="sm"><button>>Ver demo</button></div>
+            <div className="sm"><button>Ver demo</button><button href="">Ver código</button></div>
         </div>
     </div>
+    <h1 >Catálogo digital de cine enfocado en el cine de terror , que permite filtrar las películas por género, director , actores, o puntuación en imbd.</h1>
     </div>
     <div className="card middle"> 
     <div className="front">
@@ -30,9 +31,10 @@ class Cards extends Component{
     <div className="back">
         <div className="back-content middle">
            
-            <div className="sm"><button href="">>Ver demo</button></div>
+            <div className="sm"><button href="">Ver demo</button><button href="">Ver código</button></div>
         </div>
     </div>
+    <h1>Aplicación que permite a un restaurant tomar la orden de los clientes de manera fácil y didáctica.</h1>
     </div>
     <div className="card middle"> 
     <div className="front">
@@ -41,9 +43,11 @@ class Cards extends Component{
     <div className="back">
         <div className="back-content middle">
             
-            <div className="sm"><button>>Ver demo</button></div>
+            <div className="sm"><button>Ver demo</button><button href="">Ver código</button></div>
         </div>
+
     </div>
+    <h1>Plataforma web informativa de fundación duchenne Chile </h1>
     </div>
     {/* </div> */}
     
