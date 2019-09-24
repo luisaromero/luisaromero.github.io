@@ -12,3 +12,13 @@
     font-size: 25px;
     line-height: 27px;
 }
+.carousel-item  h3{
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    font-family: "ff-din-web-condensed", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+}

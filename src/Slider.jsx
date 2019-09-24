@@ -16,7 +16,8 @@ import '././Slider.css';
   </ol>
   <div class="carousel-inner">
     <div className="carousel-item active">
-      <h3>Soy  desarrolladora web , me inspira estar en constante aprendizaje . Busco siempre nuevos retos que me permitan poner en practica mis conocimientos . Además de darle un enfoque multicultural , pensando en el constante cambio social actual .</h3>
+      <h3>Soy  desarrolladora web , me inspira estar en constante aprendizaje .</h3> <h3>Busco siempre nuevos retos que me permitan poner en practica mis conocimientos . </h3>
+        <h3>Además de darle un enfoque multicultural , pensando en el constante cambio social actual .</h3>
      
     </div>
     <div className="carousel-item">
