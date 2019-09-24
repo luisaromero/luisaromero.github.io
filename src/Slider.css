@@ -1,6 +1,6 @@
 .carousel{
     width:850px;
-    height:300px;
+    height:340px;
 }
 .carousel li{
     background-color: black;
@@ -20,5 +20,6 @@
     font-family: "ff-din-web-condensed", sans-serif;
     font-style: normal;
     font-weight: 400;
+ 
 
 }

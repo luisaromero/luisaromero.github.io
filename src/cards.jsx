@@ -19,7 +19,7 @@ class Cards extends Component{
     <div className="back">
         <div className="back-content middle">
            
-            <div className="sm"><button>Ver demo</button><button href="">Ver código</button></div>
+            <div className="sm"><a className="btn btn-default" target="_blank"  href = "https://mariia1304.github.io/hackathon-terror/">Ver demo</a><a href="https://github.com/luisaromero/hackathon-terror"  target="_blank"className="btn btn-default">Ver código</a></div>
         </div>
     </div>
     <h1 >Catálogo digital de cine enfocado en el cine de terror , que permite filtrar las películas por género, director , actores, o puntuación en imbd.</h1>
@@ -31,7 +31,7 @@ class Cards extends Component{
     <div className="back">
         <div className="back-content middle">
            
-            <div className="sm"><button href="">Ver demo</button><button href="">Ver código</button></div>
+            <div className="sm"><a target="_blank" className="btn btn-default" href = "https://cloiw.github.io/SCL009-Burger-Queen">Ver demo</a><a href="https://github.com/luisaromero/SCL009-Burger-Queen" target="_blank" className="btn btn-default">Ver código</a></div>
         </div>
     </div>
     <h1>Aplicación que permite a un restaurant tomar la orden de los clientes de manera fácil y didáctica.</h1>
@@ -43,7 +43,7 @@ class Cards extends Component{
     <div className="back">
         <div className="back-content middle">
             
-            <div className="sm"><button>Ver demo</button><button href="">Ver código</button></div>
+            <div className="sm"><a className="btn btn-default" target="_blank" href = "https://Mariia1304.github.io/duchenne-react">Ver demo</a><a href="https://github.com/luisaromero/duchenne-react" target="_blank" className="btn btn-default">Ver código</a></div>
         </div>
 
     </div>
