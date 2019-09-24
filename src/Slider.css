@@ -1,5 +1,5 @@
 .carousel{
-    width:850px;
+    width:1000px;
     height:340px;
 }
 .carousel li{
@@ -20,6 +20,11 @@
     font-family: "ff-din-web-condensed", sans-serif;
     font-style: normal;
     font-weight: 400;
+    font-family: 'Cousine', monospace;
  
 
+}
+.title{
+padding-bottom:4%;
+/* font-family: 'Cousine', monospace; */
 }

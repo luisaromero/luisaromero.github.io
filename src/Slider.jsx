@@ -7,9 +7,9 @@ import '././Slider.css';
           <React.Fragment>
             <div className="title text-center">
             <p id="pp">_______________</p>
-              <h1>Acerca de mi...</h1>
+              <h1>ACERCA DE MI</h1>
             </div>
-              <div id="carouselExampleIndicators" className="carousel slide  offset-3" data-ride="carousel">
+              <div id="carouselExampleIndicators" className="carousel slide  offset-2" data-ride="carousel">
   <ol className="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
