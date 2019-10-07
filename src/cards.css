@@ -22,6 +22,10 @@
     position: absolute;
     transition: transform .6s linear
 }
+.btn{
+border:1px solid;
+margin-left: 3%;
+}
 .front img{
     height: 100%;
 }
@@ -38,15 +42,15 @@
     text-align: center;
     widows: 100%;
 }
-.sm button {
-    background:white;
+/* .sm button { */
+    /* background:white;
     text-align: center;
-    display: inline-flex;
+    display: inline-flex; */
     /* margin-left: 50%;
     margin-top:50%; */
 
     /* widows: 100%; */
-}
+/* } */
 
 .card:hover >.front{
     transform: perspective(600px) rotateY(-180deg);

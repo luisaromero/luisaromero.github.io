@@ -16,16 +16,16 @@ class App extends React.Component{
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <a className="nav-link" href="#about-me">About me</a>
+        <a className="nav-link" href="#about-me">Sobre mi </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#projects">Portfolio</a>
+        <a className="nav-link" href="#projects">Proyectos</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#skills">Skills</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#contact">Contact</a>
+        <a className="nav-link" href="#contact">Contacto</a>
       </li>
     </ul>
   </div>
@@ -34,17 +34,7 @@ class App extends React.Component{
     <div className="hola text-center">
       <p id="pp">___</p>
     <h1>
-      <span>L</span>
-      <span>u</span>
-      <span>i</span>
-      <span>s</span>
-      <span>a</span>
-      <span>R</span>
-      <span>o</span>
-      <span>m</span>
-      <span>e</span>
-      <span>r</span>
-      <span>o</span>
+     Luisa Romero
     </h1>
     
     <h2>Front-end Developer</h2>

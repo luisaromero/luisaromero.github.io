@@ -59,7 +59,7 @@ h1{
   font-size: 100%;
 
 }
-h1 span{
+/* h1 span{
   display: table-cell;
   animation: animate 2.5s linear infinite;
 }
@@ -121,4 +121,4 @@ h1 span:nth-child(2){
     text-shadow:
     0 0 10px none,
   }
-}
+} */

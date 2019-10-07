@@ -1,6 +1,6 @@
 .carousel{
     width:1000px;
-    height:340px;
+    height:400px;
 }
 .carousel li{
     background-color: black;
@@ -27,4 +27,8 @@
 .title{
 padding-bottom:4%;
 /* font-family: 'Cousine', monospace; */
+}
+.luisaPhoto{
+    width: 30%;
+    height: 30%;
 }
