@@ -29,7 +29,7 @@ background-position: cover;
   top:0;
   left:0;
   z-index:1;
-  height: 600px;
+  height: 500px;
 
  }
 .hola{
@@ -46,7 +46,7 @@ background-position: cover;
   letter-spacing: 7px;
   line-height: 0.95em;
   font-weight: 100;
-  color: white;
+  color: rgb(218, 207, 207);
   text-align: left;
   text-shadow: 1px 1px black;
   padding-top: 10px;
@@ -55,10 +55,11 @@ background-position: cover;
   letter-spacing: 0;
 }
 h1{
-  color:#111;
+  
   font-size: 100%;
 
 }
+
 /* h1 span{
   display: table-cell;
   animation: animate 2.5s linear infinite;

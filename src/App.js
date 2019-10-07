@@ -12,7 +12,7 @@ class App extends React.Component{
         <React.Fragment>
           <div className="container">
     <div className="App">
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg ">
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item active">

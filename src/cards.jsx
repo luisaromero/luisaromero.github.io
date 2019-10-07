@@ -11,7 +11,7 @@ class Cards extends Component{
    <p>_______________</p>
        <h1 className=""> Proyectos</h1>
    </div>
-{/* <div className="container row mt:100px"> */}
+<div className="container row ">
     <div className="card middle"> 
     <div className="front">
         <img className="img-fluid" src="http://img.fenixzone.net/i/bCpgkGu.png" alt="j"></img>
@@ -22,7 +22,7 @@ class Cards extends Component{
             <div className="sm"><a className="btn btn-default" target="_blank"  href = "https://mariia1304.github.io/hackathon-terror/">Ver demo</a><a href="https://github.com/luisaromero/hackathon-terror"  target="_blank"className="btn btn-default">Ver código</a></div>
         </div>
     </div>
-    <h1 >Catálogo digital de cine enfocado en el cine de terror , que permite filtrar las películas por género, director , actores, o puntuación en imbd.</h1>
+    {/* <h1 >Catálogo digital de cine enfocado en el cine de terror , que permite filtrar las películas por género, director , actores, o puntuación en imbd.</h1> */}
     </div>
     <div className="card middle"> 
     <div className="front">
@@ -34,7 +34,7 @@ class Cards extends Component{
             <div className="sm"><a target="_blank" className="btn btn-default" href = "https://cloiw.github.io/SCL009-Burger-Queen">Ver demo</a><a href="https://github.com/luisaromero/SCL009-Burger-Queen" target="_blank" className="btn btn-default">Ver código</a></div>
         </div>
     </div>
-    <h1>Aplicación que permite a un restaurant tomar la orden de los clientes de manera fácil y didáctica.</h1>
+    {/* <h1>Aplicación que permite a un restaurant tomar la orden de los clientes de manera fácil y didáctica.</h1> */}
     </div>
     <div className="card middle"> 
     <div className="front">
@@ -47,7 +47,8 @@ class Cards extends Component{
         </div>
 
     </div>
-    <h1>Plataforma web informativa de fundación duchenne Chile </h1>
+    {/* <h1>Plataforma web informativa de fundación duchenne Chile </h1> */}
+    </div>
     </div>
     {/* </div> */}
     
