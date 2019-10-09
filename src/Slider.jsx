@@ -8,7 +8,7 @@ import '././Slider.css';
             <div className="containerSlider">
             <div className="title text-center ">
             <p id="pp">_______________</p>
-              <h1>ACERCA DE MI</h1>
+              <h1 className="textSup">Acerca de mi</h1>
             </div>
               <div id="carouselExampleIndicators" className="carousel slide  offset-2" data-ride="carousel">
   <ol className="carousel-indicators">
@@ -18,11 +18,11 @@ import '././Slider.css';
   <div class="carousel-inner">
     <div className="carousel-item active ">
      
-      <img  className="luisaPhoto"src= "https://avatars1.githubusercontent.com/u/48934446?s=460&v=4"></img>
+      <img  className="luisaPhoto offset-3"src= "https://avatars1.githubusercontent.com/u/48934446?s=460&v=4"></img>
     
     </div>
     <div className="carousel-item">
-    <h3 className="">Soy  desarrolladora web , me inspira estar en constante aprendizaje .</h3> <h3>Busco siempre nuevos retos que me permitan poner en practica mis conocimientos . </h3>
+    <h3 className="">Desarrolladora web , me inspira estar en constante aprendizaje .</h3> <h3>Busco siempre nuevos retos que me permitan poner en practica mis conocimientos . </h3>
     <h3>Además de darle un enfoque multicultural , pensando en el constante cambio social actual .</h3>
     </div>
   </div>

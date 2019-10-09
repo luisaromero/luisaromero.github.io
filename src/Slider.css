@@ -9,10 +9,11 @@
    
 }
 .carousel-item p{
-    font-size: 25px;
+    font-size: 10%;
     /* line-height: 27px; */
 }
 .carousel-item  h3{
+    font-size: 170%;
     /* line-height: 38px; */
     text-align: center;
     text-transform: uppercase;

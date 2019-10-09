@@ -11,7 +11,7 @@ class Footer extends Component {
                 <a class="fa-stack fa-1x" data-toggle="tooltip" title="Linkedin" data-placement="top" href="https://www.linkedin.com/in/brucewilliamyoung" target="_blank"><i class="fa fa-linkedin-square fa-stack-2x"></i></a>
             </li>
             
-             <div className="copyright"><p>©  Copyright All rigths</p>
+             <div className="copyright"><p>©  Copyright All rigths reserved.</p>
             </div>
      </footer>
     )

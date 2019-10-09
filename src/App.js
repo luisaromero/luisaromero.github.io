@@ -21,9 +21,9 @@ class App extends React.Component{
       <li className="nav-item">
         <a className="nav-link" href="#projects">Proyectos</a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a className="nav-link" href="#skills">Skills</a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a className="nav-link" href="#contact">Contacto</a>
       </li>
@@ -43,9 +43,10 @@ class App extends React.Component{
     </div>  
     <div id="about-me"><Slider/></div>
     
-    <div id="projects "></div><Cards/>
-    <Contact/>
-   {/* <Footer/>    */}
+    <div id="projects"><Cards/></div>
+    <div id="contact"><Contact/></div>
+    
+   <Footer/>   
     </React.Fragment>
   )}
 }

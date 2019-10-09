@@ -1,7 +1,9 @@
 *{
     text-decoration: none;
 }
-
+.containerCards{
+    margin-top:8%
+}
 .middle{
     position: relative;
     top:50%;
@@ -11,8 +13,14 @@
 .card{
     border-style:none;
     cursor: pointer;
-    width: 470px;
+    width: 40%;
     height: 400px;
+  
+    margin-right: 3%;
+}
+.card .cards2{
+    margin-bottom: 3%;
+    margin-left:3%;
 }
 .front , .back{
     width: 100%;
@@ -42,6 +50,17 @@ margin-left: 3%;
     text-align: center;
     widows: 100%;
 }
+
+.containerCards h1{
+ color: blanchedalmond;
+ padding: 15%;
+ font-size:120%;
+}
+.parraf{
+    color:black;
+    margin-bottom: 7%;
+    font-size:150%;
+   }
 /* .sm button { */
     /* background:white;
     text-align: center;
@@ -61,3 +80,6 @@ margin-left: 3%;
 /* .row{
     flex-wrap: wrap;
 } */
+.textSup{
+    font-size: 150%;
+}
