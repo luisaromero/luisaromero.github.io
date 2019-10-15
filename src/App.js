@@ -9,9 +9,9 @@ import Contact from '././contact';
 class App extends React.Component{
   render(){
       return(
-        <React.Fragment>
+        <React.Fragment>     
           <div className="containerCover">
-    <div className="App">
+    <div className="overlay">
       <nav className="navbar navbar-expand-lg ">
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
@@ -27,7 +27,6 @@ class App extends React.Component{
     </ul>
   </div>
 </nav>
-    </div>
     <div className="hola text-center">
       <p id="pp">___</p>
     <h1>
@@ -36,7 +35,7 @@ class App extends React.Component{
     
     <h2>Front-end Developer</h2>
     </div>
-    <div className="overlay"></div>
+    </div>
     </div>  
     <div id="about-me"><Slider/></div>
     
