@@ -10,7 +10,7 @@ class Cards extends Component{
   
    <p className="parraf">Proyectos</p>
    </div>
-    <div className="containerCards  col-md-9 ">
+    <div className="containerCards   col-lg-9  col-md-6">
    
 <div className="container row ">
     
@@ -38,7 +38,7 @@ class Cards extends Component{
     </div>
     </div>
     </div>
-    <div className="card middle offset-2 mt-2"> 
+    <div className="card middle"> 
     <div className="front">
         <img className="img-fluid" src="http://img.fenixzone.net/i/mFaIzBk.png" alt="j"></img>
     </div>
@@ -47,9 +47,18 @@ class Cards extends Component{
             <h1>Plataforma web informativa de fundación duchenne Chile </h1>
             <div className="sm"><a className="btn btn-default" target="_blank" href = "https://Mariia1304.github.io/duchenne-react">Ver demo</a><a href="https://github.com/luisaromero/duchenne-react" target="_blank" className="btn btn-default">Ver código</a></div>
         </div>
-
     </div>
-    
+    </div>
+    <div className="card middle"> 
+    <div className="front">
+        <img className="img-fluid" src="http://img.fenixzone.net/i/mFaIzBk.png" alt="j"></img>
+    </div>
+    <div className="back">
+        <div className="back-content middle">
+            <h1>Plataforma web informativa de fundación duchenne Chile </h1>
+            <div className="sm"><a className="btn btn-default" target="_blank" href = "https://Mariia1304.github.io/duchenne-react">Ver demo</a><a href="https://github.com/luisaromero/duchenne-react" target="_blank" className="btn btn-default">Ver código</a></div>
+        </div>
+    </div>
     </div>
     </div>
     

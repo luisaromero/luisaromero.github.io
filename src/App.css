@@ -11,15 +11,16 @@ a.nav-link{
  text-decoration: none;
  background-color:  transparent;
 }
-#root{
+.containerCover{
 background:url("https://www.privateforexcoaching.com/wp-content/uploads/contact-me-01.jpg");
 background-repeat: no-repeat;
 background-size:cover;
 height: 100vh;
-width: 100%;
+width: auto;
 font-family: 'lato', sans-serif;
 background-color: black;
 background-position: cover;
+max-width: none;
 }
 
 .overlay{

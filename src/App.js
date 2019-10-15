@@ -10,7 +10,7 @@ class App extends React.Component{
   render(){
       return(
         <React.Fragment>
-          <div className="container">
+          <div className="containerCover">
     <div className="App">
       <nav className="navbar navbar-expand-lg ">
   <div className="collapse navbar-collapse" id="navbarNav">
@@ -21,9 +21,6 @@ class App extends React.Component{
       <li className="nav-item">
         <a className="nav-link" href="#projects">Proyectos</a>
       </li>
-      {/* <li className="nav-item">
-        <a className="nav-link" href="#skills">Skills</a>
-      </li> */}
       <li className="nav-item">
         <a className="nav-link" href="#contact">Contacto</a>
       </li>
