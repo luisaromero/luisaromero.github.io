@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Navbar extends React.Component{
-    render(){
+function Navbar(){
         return(
             <nav className="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,5 +15,4 @@ class Navbar extends React.Component{
       </div>
           </nav>
             )}
-        }
   export default Navbar;

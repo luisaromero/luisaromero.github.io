@@ -1,0 +1,35 @@
+#Icons {
+    text-align: center;
+    width: 100%;
+}
+ #Icons .BtnContact{
+ display: inline-block;
+ width: 90px;
+ height: 90px;
+ background: transparent;
+ margin: 10px; 
+ text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+#Icons .fa{
+    font-size: 45px;
+    line-height: 90px;
+    transition: 0.2 linear;
+    color:#dc3545;
+}
+#Icons .fa a{
+  text-decoration: none;
+  text-decoration-line: none;
+
+}
+#Icons .fa.fa-code{   
+     font-weight: bolder;
+}
+/* #Icons .BtnContact:hover{
+   transform: scale(1.3);
+} */
+
+
+
