@@ -22,11 +22,11 @@
 #Icons .fa a{
   text-decoration: none;
   text-decoration-line: none;
-
 }
 #Icons .fa.fa-code{   
      font-weight: bolder;
 }
+
 /* #Icons .BtnContact:hover{
    transform: scale(1.3);
 } */
