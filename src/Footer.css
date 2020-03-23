@@ -1,12 +1,20 @@
-footer{
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.footer{
     background: black;
+    color:#ffffff;
+    font-size: 16px;
+    font-family: 'lato', sans-serif;
+  height:4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .fa.fa-heart{
     color: brown;
 }
 a.name
 {
-    color: brown;
     text-decoration-line: none;
+    color: white;
     
 }
