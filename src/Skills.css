@@ -1,6 +1,10 @@
-img{
-    padding-left:4%;
-    padding-right:4%;
+img {
+  height: 60%;
+    width: 60%;
+}
+.Icons{
+ height: 30%;
+ 
 }
 .Skills{
     width: 100%;
@@ -8,4 +12,6 @@ img{
     display: flex;  
     justify-content: space-around; 
     flex-wrap: wrap;
+    align-items: center;
  }
+ 

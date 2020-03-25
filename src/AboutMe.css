@@ -1,0 +1,15 @@
+.Container{
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.AboutMe{
+    width: 60%;
+}
+ .BtnCV{
+     background-color:#111;
+     border: none;
+     color: #ffff;
+     text-transform: uppercase;
+ }

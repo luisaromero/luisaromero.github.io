@@ -5,6 +5,7 @@ import Home from './Home'
 import Footer from './Footer'
 import Projects from './Projects'
 import Skills from './Skills'
+import AboutMe from './AboutMe'
 
 
 import '././App.css';
@@ -20,6 +21,7 @@ class App extends React.Component{
          
         <Home/>
             {/* <Navbar/> */}
+            <AboutMe/>
             {/* <Projects/> */}
             <Skills/>
             <Contacto/>
