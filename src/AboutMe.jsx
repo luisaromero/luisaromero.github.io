@@ -5,8 +5,8 @@ function AboutMe(){
     return(
         <div className="Container">
             <div className="AboutMe">
-                <h1 className="text-center"> Sobre mi</h1>
-            <p>Desarroladora web , me inspira estar en constante aprendizaje .
+                <h1 className="TittleAboutMe"> Sobre mi.</h1>
+            <p className="Resume">Desarrolladora web . Me inspira estar en constante aprendizaje .
 Busco siempre nuevos retos que me permitan poner en practica mis conociemientos .
 Además de darle un enfoque social e inclusivo, pensando en el constante cambio actual.
 Disfruto en mis tiempos libres del cine arte <i className="fa fa-film"></i> y los juegos de mesa .<i className="fas fa-chess"></i></p> 

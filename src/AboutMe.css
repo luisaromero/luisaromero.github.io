@@ -1,3 +1,4 @@
+
 .Container{
  height: 100vh;
  display: flex;
@@ -6,10 +7,26 @@
 }
 .AboutMe{
     width: 60%;
+    text-align: center;
+}
+.AboutMe .Resume{
+    font-size: 110%;
+    text-align: center;
+    color: rgb(17, 15, 15);
+}
+.AboutMe .TittleAboutMe{
+    font-size: 180%;
+    font-weight: 100;
+    letter-spacing: 2px;
 }
  .BtnCV{
      background-color:#111;
      border: none;
      color: #ffff;
      text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 70%;
+     padding: 1em;
+     width: 19em;
  }
+ 

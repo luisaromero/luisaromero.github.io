@@ -19,8 +19,9 @@ class App extends React.Component{
      
         <React.Fragment>
          
-        <Home/>
-            {/* <Navbar/> */}
+       
+             <Navbar/> 
+             {/* <Home/> */}
             <AboutMe/>
             {/* <Projects/> */}
             <Skills/>
