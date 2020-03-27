@@ -1,17 +1,22 @@
-img {
-  height: 60%;
-    width: 60%;
-}
-.Icons{
- height: 30%;
- 
-}
+
 .Skills{
     width: 100%;
     height: 100vh;
     display: flex;  
-    justify-content: space-around; 
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
+   align-items: center;
+   padding: 10%;
+   flex-wrap: wrap;
+   flex: 1;
+}
+ .Icons img{
+   width: 60%;
+   flex: 1;
  }
+ .Icons{
+  text-align: center;
+ }
+ 
+
+
  

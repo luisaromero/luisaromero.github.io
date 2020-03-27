@@ -4,7 +4,7 @@ import './AboutMe.css'
 function AboutMe(){
     return(
         <div className="Container">
-            <div className="AboutMe">
+            <div className="AboutMe" >
                 <h1 className="TittleAboutMe"> Sobre mi.</h1>
             <p className="Resume">Desarrolladora web . Me inspira estar en constante aprendizaje .
 Busco siempre nuevos retos que me permitan poner en practica mis conociemientos .

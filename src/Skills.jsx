@@ -4,6 +4,7 @@ import './Skills.css';
 function Skills(){
  return(
      <React.Fragment>
+        
 <div className="Skills">
 <div className="Icons"><img src={require('./img/html5-brands.svg')}></img><p>Html 5</p></div>
 <div className="Icons"><img src={require('./img/react-brands.svg')}></img><p>React</p></div>
@@ -15,7 +16,7 @@ function Skills(){
 <div className="Icons"><img src={require('./img/css3-brands.svg')}></img><p>CSS</p></div>
 
 </div>
-   
+
 </React.Fragment>
  )
 }
