@@ -1,6 +1,7 @@
 #Icons {
     text-align: center;
     width: 100%;
+    height: 100vh;
 }
  #Icons .BtnContact{
  display: inline-block;
@@ -24,10 +25,5 @@
 #Icons .fa.fa-code{   
      font-weight: bolder;
 }
-
-/* #Icons .BtnContact:hover{
-   transform: scale(1.3);
-} */
-
 
 
