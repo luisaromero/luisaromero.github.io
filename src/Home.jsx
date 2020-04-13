@@ -1,13 +1,43 @@
 import React from 'react';
 import Typed from 'react-typed';
+import Particles from 'react-particles-js';
 import './Home.css'
 
 
 
 function Home(){
 return(
-  <div>sahjcahs</div>
-    // <div id="ContainerHome">
+  <div id="ContainerHome">
+   <h1>hi im Luisa</h1>
+     <Particles 
+     params={{
+      "particles": {
+        "number": {
+            "value": 70
+        }},
+      "interactivity": {
+        "events": {
+            "onhover": {
+                "enable": true,
+                "mode": "repulse"
+            }
+        }
+    },
+      background: {
+        size: "cover"
+      }
+    }}
+      />
+     
+  </div>
+ 
+
+)
+}
+
+export default Home;
+
+   // <div id="ContainerHome">
     //   <div data-aos="fade-up-left"data-aos-offset="200"
     // data-aos-delay="50"
     // data-aos-duration="1000"
@@ -26,8 +56,3 @@ return(
     // </Typed>
 //     </div>
 // </div>
-
-)
-}
-
-export default Home;

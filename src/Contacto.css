@@ -1,10 +1,25 @@
-#Icons {
+#ContainerContact {
     text-align: center;
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content:center;
+    background-color: brown;
+    padding: 5%;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
- #Icons .BtnContact{
- display: inline-block;
+#ContainerContact h1{
+  text-align: center;
+  align-self: flex-start;
+  width: 100%;
+  color:#fff;
+}
+.IconsContact{
+  align-self: flex-start;
+}
+ #ContainerContact .BtnContact{
  width: 90px;
  height: 90px;
  background: transparent;
@@ -12,17 +27,17 @@
  text-align: center;
  
 }
-#Icons .fa{
+#ContainerContact .fa{
     font-size: 45px;
     line-height: 90px;
     transition: 0.2 linear;
     color:#dc3545;
 }
-#Icons .fa a{
+#ContainerContact .fa a{
   text-decoration: none;
   text-decoration-line: none;
 }
-#Icons .fa.fa-code{   
+#ContainerContact .fa.fa-code{   
      font-weight: bolder;
 }
 

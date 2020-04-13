@@ -20,8 +20,8 @@ class App extends React.Component{
         <React.Fragment>
          
        
-             <Navbar/> 
-             {/* <Home/> */}
+             {/* <Navbar/>  */}
+              <Home/>
             <AboutMe id="AboutMe"/>
              <Projects/>
             <Skills/>
