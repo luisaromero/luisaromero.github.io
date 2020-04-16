@@ -4,7 +4,7 @@
     height: 100vh;
     display: flex;
     justify-content:center;
-    background-color: brown;
+    background-color:lightcoral;
     padding: 5%;
     align-items: center;
     flex-wrap: wrap;
@@ -40,5 +40,22 @@
 #ContainerContact .fa.fa-code{   
      font-weight: bolder;
 }
+.Square{
+  position: relative;
+  width: 50vh;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Square span:nth-child(1){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #dc3545;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%
 
+}
 

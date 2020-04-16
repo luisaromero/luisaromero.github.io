@@ -8,26 +8,51 @@ import './Home.css'
 function Home(){
 return(
   <div id="ContainerHome">
-   <h1>hi im Luisa</h1>
-     <Particles 
-     params={{
-      "particles": {
-        "number": {
-            "value": 70
-        }},
-      "interactivity": {
-        "events": {
-            "onhover": {
-                "enable": true,
-                "mode": "repulse"
-            }
-        }
-    },
-      background: {
-        size: "cover"
-      }
-    }}
-      />
+  <div className="introduction"><h1>Luisa Romero.</h1><h2>DESARROLLADORA WEB <i className="fa fa-laptop"></i></h2> </div> 
+  <Particles
+    params={{
+	    "particles": {
+	        "number": {
+	            "value": 190,
+	            "density": {
+	                "enable": true,
+	                "value_area": 1500
+	            }
+	        },
+	        "line_linked": {
+	            "enable": true,
+	            "opacity": 0.02
+	        },
+	        "move": {
+	            "direction": "right",
+	            "speed": 0.00
+	        },
+	        "size": {
+	            "value": 2
+	        },
+	        "opacity": {
+	            "anim": {
+	                "enable": true,
+	                "speed": 2,
+	                "opacity_min": 0.05
+	            }
+	        }
+	    },
+	    "interactivity": {
+	        "events": {
+	            "onclick": {
+	                "enable": false,
+	                "mode": "push"
+	            }
+	        },
+	        "modes": {
+	            "push": {
+	                "particles_nb": 1
+	            }
+	        }
+	    },
+	    "retina_detect": true
+	}} />
      
   </div>
  

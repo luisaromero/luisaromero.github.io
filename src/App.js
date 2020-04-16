@@ -23,7 +23,7 @@ class App extends React.Component{
              {/* <Navbar/>  */}
               <Home/>
             <AboutMe id="AboutMe"/>
-             <Projects/>
+             <Projects/> 
             <Skills/>
             <Contacto/>
             <Footer/>
