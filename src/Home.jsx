@@ -13,47 +13,21 @@ return(
     params={{
 	    "particles": {
 	        "number": {
-	            "value": 190,
-	            "density": {
-	                "enable": true,
-	                "value_area": 1500
-	            }
-	        },
-	        "line_linked": {
-	            "enable": true,
-	            "opacity": 0.02
-	        },
-	        "move": {
-	            "direction": "right",
-	            "speed": 0.00
+	            "value": 70
 	        },
 	        "size": {
-	            "value": 2
-	        },
-	        "opacity": {
-	            "anim": {
-	                "enable": true,
-	                "speed": 2,
-	                "opacity_min": 0.05
-	            }
+	            "value": 3
 	        }
 	    },
 	    "interactivity": {
 	        "events": {
-	            "onclick": {
-	                "enable": false,
-	                "mode": "push"
-	            }
-	        },
-	        "modes": {
-	            "push": {
-	                "particles_nb": 1
+	            "onhover": {
+	                "enable": true,
+	                "mode": "repulse"
 	            }
 	        }
-	    },
-	    "retina_detect": true
+	    }
 	}} />
-     
   </div>
  
 

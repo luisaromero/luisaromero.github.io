@@ -3,7 +3,7 @@ import './Navbar.css'
 
 function Navbar(){
         return(
-            <nav className="navbar navbar-expand-sm  sticky-top ">
+            <nav className="navbar navbar-expand-sm navbar-light fixed-top ">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>

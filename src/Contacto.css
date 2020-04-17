@@ -1,61 +1,56 @@
 #ContainerContact {
     text-align: center;
     width: 100%;
-    height: 100vh;
+    height: 87vh;
     display: flex;
     justify-content:center;
-    background-color:lightcoral;
-    padding: 5%;
+    padding: 4%;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    background:black;
+    color: #fff;
 }
 #ContainerContact h1{
   text-align: center;
-  align-self: flex-start;
-  width: 100%;
-  color:#fff;
+  
+  width: 70%;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+    font-size: 170%;
+  letter-spacing: 1px;
+  flex: 1;
 }
-.IconsContact{
-  align-self: flex-start;
-}
- #ContainerContact .BtnContact{
- width: 90px;
- height: 90px;
- background: transparent;
- margin: 10px; 
- text-align: center;
- 
-}
-#ContainerContact .fa{
-    font-size: 45px;
-    line-height: 90px;
-    transition: 0.2 linear;
-    color:#dc3545;
-}
-#ContainerContact .fa a{
-  text-decoration: none;
-  text-decoration-line: none;
-}
-#ContainerContact .fa.fa-code{   
-     font-weight: bolder;
-}
-.Square{
-  position: relative;
-  width: 50vh;
-  height: 400px;
+.GetInTouch{
   display: flex;
+  text-align: center;
+  flex: 2;
+  width: 80%;
+  margin: 0;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
-.Square span:nth-child(1){
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 2px solid #dc3545;
-  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%
 
+.IconsContact{
+  text-align: center;
+  width: 70%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 2;
 }
+.LinksContact a{
+  color: #fff;
+}
+.LinksContact .fa.fa-code{
+  font-weight: bolder;
+}
+/* @media (max-width: 700px) {
+  .GetInTouch h5{
+  font-size: .6em;
+  }
+  } */
+
+
 
