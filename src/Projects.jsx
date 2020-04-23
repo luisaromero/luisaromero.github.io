@@ -4,13 +4,13 @@ import './Projects.css';
 function Projects(){
  return(
      <React.Fragment>
-<div className="ContainerProjects">
+<div className="ContainerProjects" id="proyectos">
   <h1>PROYECTOS</h1>
   <div className="Projects">
  <div className="card">
    <div className="face face1">
 <div className="content">
-<h4>BURGUER QUEEN</h4>
+<h5>BURGUER QUEEN</h5>
 </div>
    </div>
    <div className="face face2">
@@ -26,7 +26,7 @@ function Projects(){
    <div className="card">
    <div className="face face1">
 <div className="content">
-<h4>INFO POKEMON</h4>
+<h5>INFO POKEMON</h5>
 </div>
    </div>
    <div className="face face2">
@@ -42,7 +42,7 @@ function Projects(){
    <div className="card">
    <div className="face face1">
 <div className="content">
-<h4>MD-LINKS</h4>
+<h5>MD-LINKS</h5>
 </div>
    </div>
    <div className="face face2">

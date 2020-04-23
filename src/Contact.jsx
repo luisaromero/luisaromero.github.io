@@ -4,10 +4,10 @@ import './Contacto.css';
 function Contacto(){
         return(
         
-            <div id="ContainerContact">
+            <div className="ContainerContact" id="contacto">
               <h1>Contacto.</h1>
               <div className="GetInTouch">
-               <h5>Estemos en contacto ! :) luisa.marcela.romero@gmail.com</h5>
+               <h5>Estemos en contacto :) luisa.marcela.romero@gmail.com</h5>
               </div>
               <div className="IconsContact">
                <div className="LinksContact"><a href="https://app.talento.laboratoria.la/profile/AKWcZKqAdUgpFPVDGfwPA0GsFos2" target='_blank' className="BtnContact">

@@ -6,22 +6,25 @@
     align-items: center;
     margin: auto;
     width: 100%;
-    padding: 4%;
+   padding-top: 3%;
     flex-direction: column;
+    padding: 1%;
 }
 .Projects{
     width: 100%;
     position: relative;
     display:flex;
-    justify-content: center;
+    justify-content:center;
     align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-margin: auto;}
+    margin: auto;
+    overflow: hidden;
+    }
 
 .Projects .card{
     position: relative;
-    background:transparent
+    background:transparent; 
 }
 .face.face2 .content{
     display: flex;
@@ -34,7 +37,7 @@ margin: auto;}
     transition: 0.5s;
 }
 .content button{
-    background:palevioletred;
+    background:rgb(180, 94, 123);
     border: none;
     width: 128px  ;
     text-align: center;
@@ -55,7 +58,7 @@ margin: auto;}
 .Projects .card .face.face1{
     text-align: center;
     position: relative;
-    background: palevioletred;
+    background:rgb(165, 96, 105);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +68,7 @@ margin: auto;}
 }
 .Projects .card:hover .face.face1{
     transform: translateY(0);
-    background: palevioletred;
+    background: rgb(180, 94, 123);
     }
 .Projects .card .face.face1 .content{
 transition: 0.5s;

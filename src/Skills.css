@@ -1,40 +1,48 @@
 .ContainerSkills{
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
   width: 100%;
-  align-items: center;
+  align-content: center;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content:center;
-  padding: 3%;
+  margin: auto;
+  padding: 2%;
 }
 .Skills{
-    width: 100%;
+    width: 80%;
     display: flex;  
-    justify-content: center;
+    justify-content:space-around;
    flex-wrap: wrap;
    flex-direction: row;
-   align-self: flex-start;
-   
+   align-content:center;
+   flex: 2;
+   margin: auto;
+}
+.Icons{
+text-align: center;
+display: flex;
+flex-direction: column;
 }
 .ContainerSkills h1{
-  align-self: flex-start;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 170%;
   color: #111;
+  flex: 1;
 }
+
  .Icons img{
-   width: 63%;
+   width:100px;
+   height: 100px;
  }
- .Icons{
-  text-align: center;
- }
+ 
  .Icons p{
    font-size: 120%;
    letter-spacing: 1px;
  }
+ 
  
  
 

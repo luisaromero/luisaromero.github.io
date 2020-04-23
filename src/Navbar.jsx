@@ -1,5 +1,5 @@
+import './Navbar.css';
 import React from 'react';
-import './Navbar.css'
 
 function Navbar(){
         return(
@@ -10,13 +10,14 @@ function Navbar(){
   
              <div className="collapse navbar-collapse " id="navbarTogglerDemo01">
              <div className="navbar-nav">
-             <a className="nav-item  nav-link active" href="Home">Portfolio</a>
-          <a className="nav-item nav-link active" href="AboutMe">Sobre mi</a>
-      <a className="nav-item nav-link active" href="#">Mis proyectos</a>
-      <a className="nav-item nav-link active" href="Skills">Habilidades</a>
-      <a className="nav-item nav-link active" href="">Contacto</a>
+            <a className="nav-item  nav-link active"  href="#">Portfolio</a>
+             <a className="nav-item nav-link active"  href="#sobremi">Sobre mi</a>
+              <a className="nav-item nav-link active"  href="#proyectos">Mis proyectos</a>
+            <a className="nav-item nav-link active"  href="#habilidades">Habilidades</a>
+              <a className="nav-item nav-link active" href="#contacto">Contacto</a>
       </div>
       </div>
           </nav>
+
             )}
   export default Navbar;

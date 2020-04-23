@@ -8,15 +8,15 @@ import './Home.css'
 function Home(){
 return(
   <div id="ContainerHome">
-  <div className="introduction"><h1>Luisa Romero.</h1><h2>DESARROLLADORA WEB <i className="fa fa-laptop"></i></h2> </div> 
+  <div className="introduction"><h1>Luisa Romero</h1><h2>DESARROLLADORA WEB <i className="fa fa-laptop"></i></h2> </div> 
   <Particles
     params={{
 	    "particles": {
 	        "number": {
-	            "value": 70
+	            "value": 50
 	        },
 	        "size": {
-	            "value": 3
+	            "value": 1
 	        }
 	    },
 	    "interactivity": {
