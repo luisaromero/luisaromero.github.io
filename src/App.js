@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar'
-import Contacto from './Contact'
-import Home from './Home'
-import Footer from './Footer';
-import Projects from './Projects';
-import Skills from './Skills';
-import AboutMe from './AboutMe';
+import Navbar from './modules/Navbar'
+import Contacto from './modules/Contact'
+import Home from './modules/Home'
+import Footer from './modules//Footer';
+import Projects from './modules/Projects';
+import Skills from './modules/Skills';
+import AboutMe from './modules/AboutMe';
 import '././App.css';
 
 
