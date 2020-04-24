@@ -4,9 +4,10 @@
     font-size: 75%;
     font-weight: 600;
      color: rgb(70, 70, 70); 
+     cursor: pointer;
 }
 .navbar{
-    border-bottom: 2px solid rgba(78, 165, 78, 0.199);
+    border-bottom: 1px solid  rgb(132, 157, 204);
     background-color: #fff;
 }
 .navbar-nav{

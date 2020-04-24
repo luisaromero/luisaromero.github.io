@@ -1,5 +1,4 @@
 import React from 'react';
-import Typed from 'react-typed';
 import Particles from 'react-particles-js';
 import './Home.css'
 
@@ -7,7 +6,7 @@ import './Home.css'
 
 function Home(){
 return(
-  <div id="ContainerHome">
+  <div id="inicio">
   <div className="introduction"><h1>Luisa Romero</h1><h2>DESARROLLADORA WEB <i className="fa fa-laptop"></i></h2> </div> 
   <Particles
     params={{

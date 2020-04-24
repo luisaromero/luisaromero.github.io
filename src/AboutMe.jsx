@@ -5,7 +5,7 @@ import Zoom from 'react-reveal/Zoom';
 function AboutMe(){
     return(
         <Zoom>
-        <div className="Container" id="sobremi">
+        <div className="Container" id="sobre-mi">
             <div className="AboutMe" >
                 <h1 className="TittleAboutMe"> Sobre mi</h1>     
             <p className="Resume">Desarrolladora web . Me inspira estar en constante aprendizaje .

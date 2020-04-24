@@ -21,6 +21,9 @@ function Contacto(){
               <div className="LinksContact">
               <a href="https://github.com/luisaromero" target='_blank' className="BtnContact"><h5>Github <i className="fa fa-github-alt"></i></h5> </a>
               </div>
+              <div className="LinksContact">
+              <a href="https://drive.google.com/file/d/1fflGyUgb7zLSEktYL4q2c1uzFo00DgHa/view" target='_blank' className="BtnContact"><h5>MI CV <i className="fa fa-file"></i></h5> </a>
+              </div>
                 </div>  
                 </div>
             )
