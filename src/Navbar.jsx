@@ -8,13 +8,13 @@ function Navbar(){
     <span className="navbar-toggler-icon"></span>
   </button>
   
-             <div className="collapse navbar-collapse " id="navbarTogglerDemo01">
+             <div className="collapse navbar-collapse collapse" id="navbarTogglerDemo01">
              <div className="navbar-nav">
-            <a className="nav-item  nav-link active"  href="#">Portfolio</a>
-             <a className="nav-item nav-link active"  href="#sobremi">Sobre mi</a>
-              <a className="nav-item nav-link active"  href="#proyectos">Mis proyectos</a>
-            <a className="nav-item nav-link active"  href="#habilidades">Habilidades</a>
-              <a className="nav-item nav-link active" href="#contacto">Contacto</a>
+            <a className="nav-item  nav-link active"  href="#">Portafolio</a>
+             <a className="nav-item nav-link"  href="#sobremi">Sobre mi</a>
+              <a className="nav-item nav-link"  href="#proyectos">Mis proyectos</a>
+            <a className="nav-item nav-link"  href="#habilidades">Habilidades</a>
+              <a className="nav-item nav-link" href="#contacto">Contacto</a>
       </div>
       </div>
           </nav>

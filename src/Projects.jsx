@@ -1,11 +1,14 @@
 import React from 'react';
 import './Projects.css';
+import Slide from 'react-reveal/Slide';
 
 function Projects(){
  return(
      <React.Fragment>
 <div className="ContainerProjects" id="proyectos">
-  <h1>PROYECTOS</h1>
+<Slide top>
+<h1>PROYECTOS</h1>
+</Slide>
   <div className="Projects">
  <div className="card">
    <div className="face face1">

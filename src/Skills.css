@@ -26,6 +26,9 @@ display: flex;
 flex-direction: column;
 }
 .ContainerSkills h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 170%;

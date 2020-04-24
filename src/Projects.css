@@ -23,6 +23,7 @@
     }
 
 .Projects .card{
+    border: none;
     position: relative;
     background:transparent; 
 }
@@ -100,6 +101,10 @@ font-size: 100px;
  color: #111;
 }
 .ContainerProjects h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.7;
     text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 170%;

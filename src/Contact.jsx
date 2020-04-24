@@ -1,11 +1,14 @@
 import React from 'react';
 import './Contacto.css';
+import Slide from 'react-reveal/Slide';
 
 function Contacto(){
         return(
         
             <div className="ContainerContact" id="contacto">
+              <Slide top>
               <h1>Contacto.</h1>
+              </Slide>
               <div className="GetInTouch">
                <h5>Estemos en contacto :) luisa.marcela.romero@gmail.com</h5>
               </div>
