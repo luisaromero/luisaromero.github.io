@@ -1,14 +1,14 @@
 import React from 'react';
 import './Projects.css';
-import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Slide';
 
 function Projects(){
  return(
      <React.Fragment>
 <div className="ContainerProjects" id="proyectos">
-<Slide top>
+<Zoom cascade>
 <h1>PROYECTOS</h1>
-</Slide>
+
   <div className="Projects">
  <div className="card">
    <div className="face face1">
@@ -59,6 +59,7 @@ function Projects(){
 </div>
    </div>
  </div>
+ </Zoom>
 </div>
 </React.Fragment>
  )

@@ -40,5 +40,8 @@ margin: auto;
     .introduction h1{
     font-size:2.5em;
     }
+    .bigVersion{
+     display: none;
+    }
     } 
   

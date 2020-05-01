@@ -1,16 +1,15 @@
 import React from 'react';
-import Navbar from './modules/Navbar'
-import Contacto from './modules/Contact'
-import Home from './modules/Home'
+import Navbar from './modules/Navbar';
+import Contacto from './modules/Contact';
+import Home from './modules/Home';
 import Footer from './modules//Footer';
 import Projects from './modules/Projects';
 import Skills from './modules/Skills';
 import AboutMe from './modules/AboutMe';
-import '././App.css';
+import './App.css';
 
 
-class App extends React.Component{
-  render(){
+function App(){
       return(
         <React.Fragment>
               <Navbar/>
@@ -22,6 +21,5 @@ class App extends React.Component{
             <Footer/>
           </React.Fragment>
       )}
-}
 
 export default App;

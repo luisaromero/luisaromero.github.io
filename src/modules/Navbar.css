@@ -7,7 +7,7 @@
      cursor: pointer;
 }
 .navbar{
-    border-bottom: 1px solid  rgb(132, 157, 204);
+    border-bottom: 0.5px solid  rgb(149, 149, 149); 
     background-color: #fff;
 }
 .navbar-nav{
